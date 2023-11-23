@@ -1,0 +1,16 @@
+domain: example.com
+layout:
+- go.kubebuilder.io/v3
+projectName: operator-demo
+repo: github.com/daviderli614/operator-demo
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: example.com
+  group: elasticweb
+  kind: ElasticWeb
+  path: github.com/daviderli614/operator-demo/api/v1
+  version: v1
+version: "3"
