@@ -1,0 +1,10 @@
+apiVersion: elasticweb.example.com/v1
+kind: ElasticWeb
+metadata:
+  name: elasticweb-sample
+  namespace: default
+spec:
+  image: nginx:latest
+  port: 30003
+  singlePodsQPS: 800
+  totalQPS: 2400

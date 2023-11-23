@@ -14,7 +14,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	v1 "github.com/daviderli614/kubebuilder-demo/api/v1"
+	v1 "github.com/daviderli614/operator-demo/api/v1"
 )
 
 var (
